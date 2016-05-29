@@ -1,4 +1,5 @@
 .dropdown{
+  @extend .flex-center;
   background: $light-grey;
   height: 85vh;
   width: 100vw;

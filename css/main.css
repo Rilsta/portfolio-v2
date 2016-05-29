@@ -1,4 +1,4 @@
-.flex-center, .m-box {
+.flex-center, .m-box, .dropdown {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -417,6 +417,9 @@ ul {
 
 .hidden {
   display: none; }
+
+.show {
+  display: block; }
 
 .m-box {
   height: 14.285712vh;
