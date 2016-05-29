@@ -1,0 +1,46 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+body{
+  background: $black;
+  color: $white;
+  letter-spacing: 1px;
+}
+
+h1, h2, h3{
+  font-family: "Raleway";
+  margin: 15px 0;
+}
+
+h1{
+  font-size: $logo;
+}
+h2{
+  font-size: $main-header;
+}
+h3{
+  font-size: $secondary-header;
+}
+
+a{
+  color: $light-grey;
+  text-decoration: none;
+  &:hover{
+    color: $maroon;
+  }
+}
+
+p, ul, li{
+  font-family: "Libre Baskerville";
+}
+
+p{
+  line-height: 20px;
+}
+
+ul{
+  list-style: none;
+}

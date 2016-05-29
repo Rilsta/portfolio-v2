@@ -364,4 +364,42 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+body {
+  background: #212121;
+  color: #f9f9f9;
+  letter-spacing: 1px; }
+
+h1, h2, h3 {
+  font-family: "Raleway";
+  margin: 15px 0; }
+
+h1 {
+  font-size: 2.5em; }
+
+h2 {
+  font-size: 1.75em; }
+
+h3 {
+  font-size: 1.25em; }
+
+a {
+  color: #9f9f9f;
+  text-decoration: none; }
+  a:hover {
+    color: #871134; }
+
+p, ul, li {
+  font-family: "Libre Baskerville"; }
+
+p {
+  line-height: 20px; }
+
+ul {
+  list-style: none; }
+
 /*# sourceMappingURL=main.css.map */
