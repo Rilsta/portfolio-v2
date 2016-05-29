@@ -4,6 +4,7 @@ $(document).ready(function() {
 
   //Hidden on page load
   $("#design-content").addClass("dropdown hidden");
+  $("#content-box").addClass("content-box");
 
   //Dropdown hide/show for main menu
   $("#design").click(function() {

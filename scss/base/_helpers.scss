@@ -5,6 +5,14 @@
   align-items: center;
 }
 
+.flex-container{
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .hidden{
   display: none;
 }

@@ -1,4 +1,4 @@
-.flex-center, .m-box, .dropdown {
+.flex-center, .m-box {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -415,6 +415,13 @@ ul {
   justify-content: center;
   align-items: center; }
 
+.flex-container {
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center; }
+
 .hidden {
   display: none; }
 
@@ -425,6 +432,11 @@ ul {
   height: 14.285712vh;
   width: 100vw;
   background: #696969; }
+
+.content-box {
+  width: 90%;
+  height: 30%;
+  background: indianred; }
 
 @keyframes fadeInRight {
   0% {
