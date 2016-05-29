@@ -1,3 +1,8 @@
+.flex-center, .m-box {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -376,7 +381,8 @@ body {
 
 h1, h2, h3 {
   font-family: "Raleway";
-  margin: 15px 0; }
+  margin: 15px 0;
+  font-weight: normal; }
 
 h1 {
   font-size: 2.5em; }
@@ -389,6 +395,7 @@ h3 {
 
 a {
   color: #9f9f9f;
+  font-size: 1.1em;
   text-decoration: none; }
   a:hover {
     color: #871134; }
@@ -401,5 +408,74 @@ p {
 
 ul {
   list-style: none; }
+
+.box-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center; }
+
+.hidden {
+  display: none; }
+
+.m-box {
+  height: 14.285712vh;
+  width: 100vw;
+  background: #696969; }
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+@keyframes colorChange {
+  0% {
+    background: #9f9f9f; }
+  50% {
+    background: #212121; }
+  100% {
+    background: #9f9f9f; } }
+.dropdown {
+  background: #9f9f9f;
+  height: 85vh;
+  width: 100vw; }
+
+.m-scene {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center; }
+  .m-scene .scene__element {
+    animation-duration: 0.25s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both; }
+  .m-scene .scene__element--fadein {
+    animation-name: fadeIn; }
+  .m-scene .scene__element--fadeinup {
+    animation-name: fadeInUp; }
+  .m-scene .scene__element--fadeinright {
+    animation-name: fadeInRight; }
+  .m-scene .scene__element--fadeinleft {
+    animation-name: fadeInLeft; }
 
 /*# sourceMappingURL=main.css.map */

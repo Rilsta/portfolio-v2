@@ -13,6 +13,7 @@ body{
 h1, h2, h3{
   font-family: "Raleway";
   margin: 15px 0;
+  font-weight: normal;
 }
 
 h1{
@@ -27,6 +28,7 @@ h3{
 
 a{
   color: $light-grey;
+  font-size: $link;
   text-decoration: none;
   &:hover{
     color: $maroon;
