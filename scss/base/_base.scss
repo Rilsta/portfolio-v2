@@ -10,6 +10,10 @@ body{
   letter-spacing: 1px;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 h1, h2, h3{
   font-family: "Raleway";
   margin: 15px 0;
@@ -27,7 +31,7 @@ h3{
 }
 
 a{
-  color: $light-grey;
+  color: $white;
   font-size: $link;
   text-decoration: none;
   &:hover{
@@ -46,4 +50,9 @@ p{
 
 ul{
   list-style: none;
+}
+
+.icons{
+  font-size: 40px;
+  margin: 15px;
 }

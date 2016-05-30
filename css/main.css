@@ -379,6 +379,9 @@ body {
   color: #f9f9f9;
   letter-spacing: 1px; }
 
+body::-webkit-scrollbar {
+  display: none; }
+
 h1, h2, h3 {
   font-family: "Raleway";
   margin: 15px 0;
@@ -394,7 +397,7 @@ h3 {
   font-size: 1.25em; }
 
 a {
-  color: #9f9f9f;
+  color: #f9f9f9;
   font-size: 1.1em;
   text-decoration: none; }
   a:hover {
@@ -409,6 +412,10 @@ p {
 
 ul {
   list-style: none; }
+
+.icons {
+  font-size: 40px;
+  margin: 15px; }
 
 .box-container {
   display: flex;
@@ -506,8 +513,7 @@ ul {
 .dropdown {
   background: #9f9f9f;
   height: 85vh;
-  width: 100vw;
-  border: 1px solid red; }
+  width: 100vw; }
 
 .self-image {
   width: 150px;
@@ -532,8 +538,6 @@ ul {
   height: 100%;
   width: 100%;
   background: rgba(33, 33, 33, 0.5); }
-  .overlay h3 {
-    font-weight: bold; }
 
 .m-scene {
   display: flex;
