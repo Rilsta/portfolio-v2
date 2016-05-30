@@ -6,6 +6,7 @@ $(document).ready(function() {
   $("#design-content").addClass("dropdown hidden");
   $("#develop-content").addClass("dropdown hidden");
   $("#delight-content").addClass("dropdown hidden");
+  //Preload
   $("#content-box").addClass("content-box");
   $("#self-image").addClass("self-image");
 
