@@ -27,13 +27,17 @@
   margin-top: 10px;
 
   position: absolute;
-  right: 0;
+  right: 10px;
 }
 
 .about-box{
-  width: 100%;
-  margin-top: 95px;
-  height: 80%;
+  border: 1px solid blue;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  width: 90vw;
+  height: 75%;
+  margin-top: 25%;
   background: $black;
-  padding: 40px 15px 15px 15px;
+  padding: 25px;
 }

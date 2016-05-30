@@ -405,7 +405,7 @@ p, ul, li {
 
 p {
   line-height: 20px;
-  font-size: 0.8em; }
+  font-size: 0.9em; }
 
 ul {
   list-style: none; }
@@ -458,14 +458,18 @@ ul {
   background: #212121;
   margin-top: 10px;
   position: absolute;
-  right: 0; }
+  right: 10px; }
 
 .about-box {
-  width: 100%;
-  margin-top: 95px;
-  height: 80%;
+  border: 1px solid blue;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  width: 90vw;
+  height: 75%;
+  margin-top: 25%;
   background: #212121;
-  padding: 40px 15px 15px 15px; }
+  padding: 25px; }
 
 @keyframes fadeInRight {
   0% {
@@ -503,7 +507,8 @@ ul {
 .dropdown {
   background: #9f9f9f;
   height: 85vh;
-  width: 100vw; }
+  width: 100vw;
+  border: 1px solid red; }
 
 .self-image {
   width: 150px;
