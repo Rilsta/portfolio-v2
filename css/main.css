@@ -515,17 +515,25 @@ ul {
 
 .box-image-wf {
   background: url("../img/wireframethumb.svg");
-  background-size: cover;
-  background-color: #696969; }
+  background-size: cover; }
 
 .box-image-pt {
   background: url("../img/prototypethumbnail.svg");
-  background-size: cover;
-  background-color: #696969; }
+  background-size: cover; }
 
 .box-image-mu {
   background: url("../img/mondrian.jpg");
   background-size: cover; }
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: rgba(33, 33, 33, 0.5); }
+  .overlay h3 {
+    font-weight: bold; }
 
 .m-scene {
   display: flex;

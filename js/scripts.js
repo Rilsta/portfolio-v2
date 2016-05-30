@@ -7,8 +7,18 @@ $(document).ready(function() {
   $("#develop-content").addClass("dropdown hidden");
   $("#delight-content").addClass("dropdown hidden");
   //Preload
-  $("#content-box").addClass("content-box");
+  // $("#content-box").addClass("content-box");
   $("#self-image").addClass("self-image");
+
+  //Design tab class additions
+  $("#wf, #pt, #mu").addClass("content-box");
+  $("#wf").addClass("box-image-wf");
+  $("#pt").addClass("box-image-pt");
+  $("#mu").addClass("box-image-mu");
+
+  $("#wf--overlay").addClass("overlay");
+  $("#pt--overlay").addClass("overlay");
+  $("#mu--overlay").addClass("overlay");
 
   //Dropdown hide/show for main menu
   $("#design").click(function() {
