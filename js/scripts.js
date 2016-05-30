@@ -7,6 +7,7 @@ $(document).ready(function() {
   $("#develop-content").addClass("dropdown hidden");
   $("#delight-content").addClass("dropdown hidden");
   $("#content-box").addClass("content-box");
+  $("#self-image").addClass("self-image");
 
   //Dropdown hide/show for main menu
   $("#design").click(function() {

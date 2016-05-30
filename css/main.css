@@ -404,7 +404,8 @@ p, ul, li {
   font-family: "Libre Baskerville"; }
 
 p {
-  line-height: 20px; }
+  line-height: 20px;
+  font-size: 0.8em; }
 
 ul {
   list-style: none; }
@@ -420,6 +421,12 @@ ul {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
+  align-items: center; }
+
+.delight-flex-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
   align-items: center; }
 
 .hidden {
@@ -439,7 +446,26 @@ ul {
   justify-content: center;
   width: 90%;
   height: 30%;
-  background: indianred; }
+  background: #212121; }
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 175px;
+  border-radius: 50% 50% 50% 10%;
+  background: #212121;
+  margin-top: 10px;
+  position: absolute;
+  right: 0; }
+
+.about-box {
+  width: 100%;
+  margin-top: 95px;
+  height: 80%;
+  background: #212121;
+  padding: 40px 15px 15px 15px; }
 
 @keyframes fadeInRight {
   0% {
@@ -478,6 +504,10 @@ ul {
   background: #9f9f9f;
   height: 85vh;
   width: 100vw; }
+
+.self-image {
+  width: 150px;
+  border-radius: 50% 50% 50% 10%; }
 
 .m-scene {
   display: flex;

@@ -13,5 +13,27 @@
   width: 90%;
   height: 30%;
 
-  background: indianred;
+  background: $black;
+}
+
+.image-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 175px;
+  border-radius: 50% 50% 50% 10%;
+  background: $black;
+  margin-top: 10px;
+
+  position: absolute;
+  right: 0;
+}
+
+.about-box{
+  width: 100%;
+  margin-top: 95px;
+  height: 80%;
+  background: $black;
+  padding: 40px 15px 15px 15px;
 }

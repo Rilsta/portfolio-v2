@@ -13,6 +13,13 @@
   align-items: center;
 }
 
+.delight-flex-container{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .hidden{
   display: none;
 }
