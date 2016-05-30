@@ -513,6 +513,20 @@ ul {
   width: 150px;
   border-radius: 50% 50% 50% 10%; }
 
+.box-image-wf {
+  background: url("../img/wireframethumb.svg");
+  background-size: cover;
+  background-color: #696969; }
+
+.box-image-pt {
+  background: url("../img/prototypethumbnail.svg");
+  background-size: cover;
+  background-color: #696969; }
+
+.box-image-mu {
+  background: url("../img/mondrian.jpg");
+  background-size: cover; }
+
 .m-scene {
   display: flex;
   flex-flow: column wrap;
