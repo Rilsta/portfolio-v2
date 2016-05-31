@@ -1,7 +1,13 @@
 $(document).ready(function() {
 
-  $(".m-box").addClass("m-box");
-
+  //intro animation
+  $("#design").addClass("m-box m-box--colorchange-one");
+  $("#develop").addClass("m-box m-box--colorchange-two");
+  $("#delight").addClass("m-box m-box--colorchange-three");
+  $("#logo").addClass("m-box m-box--colorchange-four");
+  $("#empty-five").addClass("m-box m-box--colorchange-five empty");
+  $("#empty-six").addClass("m-box m-box--colorchange-six empty");
+  $("#ext-links").addClass("m-box m-box--colorchange-seven");
   //Hidden on page load
   $("#design-content").addClass("dropdown hidden");
   $("#develop-content").addClass("dropdown hidden");
@@ -11,14 +17,14 @@ $(document).ready(function() {
   $("#self-image").addClass("self-image");
 
   //Design tab class additions
-  $("#wf, #pt, #mu").addClass("content-box");
+  $("#wf, #pt, #mu, #ch, #se").addClass("content-box");
   $("#wf").addClass("box-image-wf");
   $("#pt").addClass("box-image-pt");
   $("#mu").addClass("box-image-mu");
-
-  $("#wf--overlay").addClass("overlay");
-  $("#pt--overlay").addClass("overlay");
-  $("#mu--overlay").addClass("overlay");
+  $("#ch").addClass("box-image-ch");
+  $("#se").addClass("box-image-se");
+  $("#wf--overlay, #pt--overlay, #mu--overlay, #ch--overlay, #se--overlay").addClass("overlay");
+  $("#skill-list-box").addClass("skill-list-box");
 
   //Dropdown hide/show for main menu
   $("#design").click(function() {
@@ -30,7 +36,4 @@ $(document).ready(function() {
   $("#delight").click(function() {
     $("#delight-content, #design, #develop, #logo, .empty").slideToggle("hidden");
   });
-  // Animations
-  // $("#box-container").addClass("m-scene");
-  // $("#logo").addClass("scene__element scene__element--fadeinup");
 });

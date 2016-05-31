@@ -6,7 +6,7 @@
 
 body{
   background: $black;
-  color: $white;
+  color: $light-grey;
   letter-spacing: 1px;
 }
 
@@ -21,6 +21,7 @@ h1, h2, h3{
 }
 
 h1{
+  color: $white;
   font-size: $logo;
 }
 h2{
@@ -28,6 +29,7 @@ h2{
 }
 h3{
   font-size: $secondary-header;
+  margin: 5px;
 }
 
 a{
@@ -39,16 +41,17 @@ a{
   }
 }
 
-p, ul, li{
-  font-family: "Libre Baskerville";
-}
-
 p{
+  font-family: "Libre Baskerville";
   line-height: 20px;
   font-size: 0.9em;
 }
 
-ul{
+ul, li{
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
   list-style: none;
 }
 

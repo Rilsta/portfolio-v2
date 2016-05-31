@@ -40,12 +40,9 @@
 //main page color changing animation background
 @keyframes colorChange {
   0% {
-    background: $secondary-color;
-  }
-  50% {
-    background: $main-color;
+    background: $grey;
   }
   100% {
-    background: $secondary-color;
+    background: $main-color;
   }
 }

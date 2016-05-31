@@ -376,7 +376,7 @@ textarea {
 
 body {
   background: #212121;
-  color: #f9f9f9;
+  color: #9f9f9f;
   letter-spacing: 1px; }
 
 body::-webkit-scrollbar {
@@ -388,13 +388,15 @@ h1, h2, h3 {
   font-weight: normal; }
 
 h1 {
+  color: #f9f9f9;
   font-size: 2.5em; }
 
 h2 {
   font-size: 1.75em; }
 
 h3 {
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  margin: 5px; }
 
 a {
   color: #f9f9f9;
@@ -403,14 +405,16 @@ a {
   a:hover {
     color: #871134; }
 
-p, ul, li {
-  font-family: "Libre Baskerville"; }
-
 p {
+  font-family: "Libre Baskerville";
   line-height: 20px;
   font-size: 0.9em; }
 
-ul {
+ul, li {
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
   list-style: none; }
 
 .icons {
@@ -445,14 +449,37 @@ ul {
 .m-box {
   height: 14.285712vh;
   width: 100vw;
-  background: #696969; }
+  color: #696969;
+  background: #212121; }
+
+.m-box--colorchange-one {
+  animation: colorChange 2s ease-in-out 1; }
+
+.m-box--colorchange-two {
+  animation: colorChange 3s ease-in-out 1; }
+
+.m-box--colorchange-three {
+  animation: colorChange 4s ease-in-out 1; }
+
+.m-box--colorchange-four {
+  animation: colorChange 5s ease-in-out 1; }
+
+.m-box--colorchange-five {
+  animation: colorChange 6s ease-in-out 1; }
+
+.m-box--colorchange-six {
+  animation: colorChange 7s ease-in-out 1; }
+
+.m-box--colorchange-seven {
+  animation: colorChange 8s ease-in-out 1; }
 
 .content-box {
   display: flex;
+  flex-flow: column;
   align-items: center;
-  justify-content: center;
-  width: 90%;
-  height: 30%;
+  justify-content: space-around;
+  width: 100%;
+  height: 33.3333%;
   background: #212121; }
 
 .image-box {
@@ -476,6 +503,12 @@ ul {
   margin-top: 25%;
   background: #212121;
   padding: 25px; }
+
+.skill-list-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
 
 @keyframes fadeInRight {
   0% {
@@ -505,11 +538,9 @@ ul {
     transform: none; } }
 @keyframes colorChange {
   0% {
-    background: #9f9f9f; }
-  50% {
-    background: #212121; }
+    background: #696969; }
   100% {
-    background: #9f9f9f; } }
+    background: #212121; } }
 .dropdown {
   background: #9f9f9f;
   height: 85vh;
@@ -529,6 +560,14 @@ ul {
 
 .box-image-mu {
   background: url("../img/mondrian.jpg");
+  background-size: cover; }
+
+.box-image-ch {
+  background: url("../img/candorthumb.jpg");
+  background-size: cover; }
+
+.box-image-se {
+  background: url("../img/shorts.jpg");
   background-size: cover; }
 
 .overlay {
