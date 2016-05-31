@@ -411,6 +411,7 @@ p {
   font-size: 0.9em; }
 
 ul, li {
+  line-height: 25px;
   font-size: 0.9em;
   margin: 0;
   padding: 0;
@@ -456,22 +457,22 @@ ul, li {
   animation: colorChange 2s ease-in-out 1; }
 
 .m-box--colorchange-two {
-  animation: colorChange 3s ease-in-out 1; }
+  animation: colorChange 2.5s ease-in-out 1; }
 
 .m-box--colorchange-three {
-  animation: colorChange 4s ease-in-out 1; }
+  animation: colorChange 3s ease-in-out 1; }
 
 .m-box--colorchange-four {
-  animation: colorChange 5s ease-in-out 1; }
+  animation: colorChange 3.5s ease-in-out 1; }
 
 .m-box--colorchange-five {
-  animation: colorChange 6s ease-in-out 1; }
+  animation: colorChange 4s ease-in-out 1; }
 
 .m-box--colorchange-six {
-  animation: colorChange 7s ease-in-out 1; }
+  animation: colorChange 4.5s ease-in-out 1; }
 
 .m-box--colorchange-seven {
-  animation: colorChange 8s ease-in-out 1; }
+  animation: colorChange 5s ease-in-out 1; }
 
 .content-box {
   display: flex;
@@ -538,6 +539,10 @@ ul, li {
     transform: none; } }
 @keyframes colorChange {
   0% {
+    background: #212121; }
+  33% {
+    background: #212121; }
+  66% {
     background: #696969; }
   100% {
     background: #212121; } }

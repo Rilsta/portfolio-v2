@@ -5,9 +5,33 @@ $(document).ready(function() {
   $("#develop").addClass("m-box m-box--colorchange-two");
   $("#delight").addClass("m-box m-box--colorchange-three");
   $("#logo").addClass("m-box m-box--colorchange-four");
-  $("#empty-five").addClass("m-box m-box--colorchange-five empty");
+  $("#empty-five").addClass("m-box m-box--colorchange-five empty flex-top");
   $("#empty-six").addClass("m-box m-box--colorchange-six empty");
   $("#ext-links").addClass("m-box m-box--colorchange-seven");
+
+  //removeClass intro animation delay
+  setTimeout(function() {
+    $("#design").removeClass("m-box--colorchange-one");
+  }, 2000);
+  setTimeout(function() {
+    $("#develop").removeClass("m-box--colorchange-two");
+  }, 2500);
+  setTimeout(function() {
+    $("#delight").removeClass("m-box--colorchange-three");
+    $("#empty-five h3").removeClass("hidden");
+  }, 3000);
+  setTimeout(function() {
+    $("#logo").removeClass("m-box--colorchange-four");
+  }, 3500);
+  setTimeout(function() {
+    $("#empty-five").removeClass("m-box--colorchange-five");
+  }, 4000);
+  setTimeout(function() {
+    $("#empty-six").removeClass("m-box--colorchange-six");
+  }, 4500);
+  setTimeout(function() {
+    $("#ext-links").removeClass("m-box--colorchange-seven");
+  }, 5000);
   //Hidden on page load
   $("#design-content").addClass("dropdown hidden");
   $("#develop-content").addClass("dropdown hidden");

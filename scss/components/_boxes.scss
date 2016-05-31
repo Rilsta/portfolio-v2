@@ -1,45 +1,41 @@
-.m-box{
+.m-box {
   @extend .flex-center;
   height: 14.285712vh;
   width: 100vw;
   color: $grey;
   background: $black;
 }
-
-.m-box--colorchange-one{
+.m-box--colorchange-one {
   animation: colorChange 2s ease-in-out 1;
 }
-.m-box--colorchange-two{
+.m-box--colorchange-two {
+  animation: colorChange 2.5s ease-in-out 1;
+}
+.m-box--colorchange-three {
   animation: colorChange 3s ease-in-out 1;
 }
-.m-box--colorchange-three{
+.m-box--colorchange-four {
+  animation: colorChange 3.5s ease-in-out 1;
+}
+.m-box--colorchange-five {
   animation: colorChange 4s ease-in-out 1;
 }
-.m-box--colorchange-four{
+.m-box--colorchange-six {
+  animation: colorChange 4.5s ease-in-out 1;
+}
+.m-box--colorchange-seven {
   animation: colorChange 5s ease-in-out 1;
 }
-.m-box--colorchange-five{
-  animation: colorChange 6s ease-in-out 1;
-}
-.m-box--colorchange-six{
-  animation: colorChange 7s ease-in-out 1;
-}
-.m-box--colorchange-seven{
-  animation: colorChange 8s ease-in-out 1;
-}
-
-.content-box{
+.content-box {
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: space-around;
   width: 100%;
   height: 33.3333%;
-
   background: $black;
 }
-
-.image-box{
+.image-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,12 +44,10 @@
   border-radius: 50% 50% 50% 10%;
   background: $black;
   margin-top: 10px;
-
   position: absolute;
   right: 10px;
 }
-
-.about-box{
+.about-box {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
@@ -63,8 +57,7 @@
   background: $black;
   padding: 25px;
 }
-
-.skill-list-box{
+.skill-list-box {
   width: 100%;
   display: flex;
   justify-content: space-around;
