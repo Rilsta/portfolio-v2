@@ -44,23 +44,27 @@
   height: 175px;
   border-radius: 50% 50% 50% 10%;
   background: $black;
+
   position: relative;
   top:2vh;
-  left: 46vw;
+  left: 26vh;
   z-index: 1;
+  align-self: flex-start;
 }
 .about-box {
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-around;
-  position: relative;
-  top: -15vh;
+  justify-content: space-between;
   width: 90vw;
-  height: 75vh;
+  height: 400px;
   padding: 25px;
   background: $black;
   color: $white;
+  margin: auto;
+  position: relative;
+  top: -12vh;
 }
+
 .skill-list-box {
   width: 100%;
   display: flex;

@@ -429,14 +429,8 @@ ul, li {
   align-items: center; }
 
 .flex-container {
-  height: 100%;
   display: flex;
   flex-flow: column;
-  align-items: center; }
-
-.delight-flex-container {
-  display: flex;
-  flex-flow: column wrap;
   align-items: center; }
 
 .hidden {
@@ -491,20 +485,22 @@ ul, li {
   background: #212121;
   position: relative;
   top: 2vh;
-  left: 46vw;
-  z-index: 1; }
+  left: 26vh;
+  z-index: 1;
+  align-self: flex-start; }
 
 .about-box {
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-around;
-  position: relative;
-  top: -15vh;
+  justify-content: space-between;
   width: 90vw;
-  height: 75vh;
+  height: 400px;
   padding: 25px;
   background: #212121;
-  color: #f9f9f9; }
+  color: #f9f9f9;
+  margin: auto;
+  position: relative;
+  top: -12vh; }
 
 .skill-list-box {
   width: 100%;
@@ -548,12 +544,17 @@ ul, li {
   100% {
     background: #212121; } }
 .dropdown {
-  background: #9f9f9f;
+  background: #212121;
   height: 85vh;
   width: 100vw; }
 
+.ch-content, .se-content, .lb-content {
+  color: #f9f9f9;
+  background: #212121;
+  padding: 15px; }
+
 .self-image {
-  width: 150px;
+  width: 125px;
   border-radius: 50% 50% 50% 10%; }
 
 .box-image-wf {
@@ -586,7 +587,8 @@ ul, li {
   align-items: center;
   height: 100%;
   width: 100%;
-  background: rgba(33, 33, 33, 0.5); }
+  background: rgba(33, 33, 33, 0.5);
+  color: #f9f9f9; }
 
 .m-scene {
   display: flex;

@@ -1,5 +1,11 @@
 .dropdown{
-  background: $light-grey;
+  background: $black;
   height: 85vh;
   width: 100vw;
+}
+
+.ch-content, .se-content, .lb-content{
+  color: $white;
+  background: $black;
+  padding: 15px;
 }

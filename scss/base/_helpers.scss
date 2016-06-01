@@ -6,15 +6,8 @@
 }
 
 .flex-container{
-  height: 100%;
   display: flex;
   flex-flow: column;
-  align-items: center;
-}
-
-.delight-flex-container{
-  display: flex;
-  flex-flow: column wrap;
   align-items: center;
 }
 

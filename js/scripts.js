@@ -36,6 +36,9 @@ $(document).ready(function() {
   $("#design-content").addClass("dropdown hidden");
   $("#develop-content").addClass("dropdown hidden");
   $("#delight-content").addClass("dropdown hidden");
+  $("#ch-content").addClass("ch-content hidden");
+  $("#se-content").addClass("se-content hidden");
+  $("#lb-content").addClass("lb-content hidden");
 
   //Preload
   $("#self-image").addClass("self-image");
@@ -60,5 +63,14 @@ $(document).ready(function() {
   });
   $("#delight").click(function() {
     $("#delight-content, #design, #develop, #logo, .empty").slideToggle("hidden");
+  });
+  $("#ch").click(function() {
+    $("#develop, #se, #lb, #ch-content, #ext-links").slideToggle("hidden");
+  });
+  $("#se").click(function() {
+    $("#develop, #ch, #lb, #se-content, #ext-links").slideToggle("hidden");
+  });
+  $("#lb").click(function() {
+    $("#develop ,#ch, #se, #lb-content, #ext-links").slideToggle("hidden");
   });
 });
