@@ -437,7 +437,6 @@ ul, li {
 .delight-flex-container {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
   align-items: center; }
 
 .hidden {
@@ -482,7 +481,7 @@ ul, li {
   height: 33.3333%;
   background: #212121; }
 
-.image-box {
+.self-image-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -490,19 +489,22 @@ ul, li {
   height: 175px;
   border-radius: 50% 50% 50% 10%;
   background: #212121;
-  margin-top: 10px;
-  position: absolute;
-  right: 10px; }
+  position: relative;
+  top: 2vh;
+  left: 46vw;
+  z-index: 1; }
 
 .about-box {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
+  position: relative;
+  top: -15vh;
   width: 90vw;
-  height: 75%;
-  margin-top: 25%;
+  height: 75vh;
+  padding: 25px;
   background: #212121;
-  padding: 25px; }
+  color: #f9f9f9; }
 
 .skill-list-box {
   width: 100%;
