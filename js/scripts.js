@@ -18,7 +18,6 @@ $(document).ready(function() {
   }, 2500);
   setTimeout(function() {
     $("#delight").removeClass("m-box--colorchange-three");
-    $("#empty-five h3").removeClass("hidden");
   }, 3000);
   setTimeout(function() {
     $("#logo").removeClass("m-box--colorchange-four");
@@ -32,22 +31,24 @@ $(document).ready(function() {
   setTimeout(function() {
     $("#ext-links").removeClass("m-box--colorchange-seven");
   }, 5000);
+
   //Hidden on page load
   $("#design-content").addClass("dropdown hidden");
   $("#develop-content").addClass("dropdown hidden");
   $("#delight-content").addClass("dropdown hidden");
+
   //Preload
-  // $("#content-box").addClass("content-box");
   $("#self-image").addClass("self-image");
 
   //Design tab class additions
-  $("#wf, #pt, #mu, #ch, #se").addClass("content-box");
+  $("#wf, #pt, #mu, #ch, #se, #lb").addClass("content-box");
   $("#wf").addClass("box-image-wf");
   $("#pt").addClass("box-image-pt");
   $("#mu").addClass("box-image-mu");
   $("#ch").addClass("box-image-ch");
   $("#se").addClass("box-image-se");
-  $("#wf--overlay, #pt--overlay, #mu--overlay, #ch--overlay, #se--overlay").addClass("overlay");
+  $("#lb").addClass("box-image-lb");
+  $("#wf--overlay, #pt--overlay, #mu--overlay, #ch--overlay, #se--overlay, #lb--overlay").addClass("overlay");
   $("#skill-list-box").addClass("skill-list-box");
 
   //Dropdown hide/show for main menu
