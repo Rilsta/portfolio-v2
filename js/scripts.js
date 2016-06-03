@@ -39,20 +39,23 @@ $(document).ready(function() {
   $("#ch-content").addClass("ch-content hidden");
   $("#se-content").addClass("se-content hidden");
   $("#lb-content").addClass("lb-content hidden");
+  $("#rr-content").addClass("rr-content hidden");
 
   //Preload
   $("#self-image").addClass("self-image");
-  $("#proj-links-ch, #proj-links-se, #proj-links-lb").addClass("proj-links");
+  $("#proj-links-ch, #proj-links-se, #proj-links-lb, #proj-links-rr").addClass("proj-links");
 
   //Design tab class additions
-  $("#wf, #pt, #mu, #ch, #se, #lb").addClass("content-box");
+  $("#wf, #pt, #mu, #ch, #se, #lb, #rr").addClass("content-box");
+  $("#wf, #pt").addClass("content-box-design");
   $("#wf").addClass("box-image-wf");
   $("#pt").addClass("box-image-pt");
   $("#mu").addClass("box-image-mu");
   $("#ch").addClass("box-image-ch");
   $("#se").addClass("box-image-se");
   $("#lb").addClass("box-image-lb");
-  $("#wf--overlay, #pt--overlay, #mu--overlay, #ch--overlay, #se--overlay, #lb--overlay").addClass("overlay");
+  $("#rr").addClass("box-image-lb");
+  $("#wf--overlay, #pt--overlay, #mu--overlay, #ch--overlay, #se--overlay, #lb--overlay, #rr--overlay").addClass("overlay");
   $("#skill-list-box").addClass("skill-list-box");
 
   //Dropdown hide/show for main menu
@@ -66,12 +69,15 @@ $(document).ready(function() {
     $("#delight-content, #design, #develop, #logo, .empty").slideToggle("hidden");
   });
   $("#ch").click(function() {
-    $("#develop, #se, #lb, #ch-content, #ext-links").slideToggle("hidden");
+    $("#develop, #se, #lb, #rr, #ch-content, #ext-links").slideToggle("hidden");
   });
   $("#se").click(function() {
-    $("#develop, #ch, #lb, #se-content, #ext-links").slideToggle("hidden");
+    $("#develop, #ch, #lb, #rr, #se-content, #ext-links").slideToggle("hidden");
   });
   $("#lb").click(function() {
-    $("#develop ,#ch, #se, #lb-content, #ext-links").slideToggle("hidden");
+    $("#develop ,#ch, #se, #rr, #lb-content, #ext-links").slideToggle("hidden");
+  });
+  $("#rr").click(function() {
+    $("#develop ,#ch, #se, #lb, #rr-content, #ext-links").slideToggle("hidden");
   });
 });
