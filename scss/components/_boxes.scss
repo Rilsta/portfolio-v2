@@ -43,11 +43,10 @@
   width: 175px;
   height: 175px;
   border-radius: 50% 50% 50% 10%;
-  background: $black;
+  background: $grey;
 
   position: relative;
-  top:2vh;
-  left: 26vh;
+  left: 45vw;
   z-index: 1;
   align-self: flex-start;
 }
@@ -58,11 +57,13 @@
   width: 90vw;
   height: 400px;
   padding: 25px;
-  background: $black;
+  background: $dark-grey;
   color: $white;
   margin: auto;
   position: relative;
   top: -12vh;
+  border-radius: 50px;
+  max-width: 500px;
 }
 
 .skill-list-box {

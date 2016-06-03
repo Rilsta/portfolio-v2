@@ -42,6 +42,7 @@ $(document).ready(function() {
 
   //Preload
   $("#self-image").addClass("self-image");
+  $("#proj-links-ch, #proj-links-se, #proj-links-lb").addClass("proj-links");
 
   //Design tab class additions
   $("#wf, #pt, #mu, #ch, #se, #lb").addClass("content-box");

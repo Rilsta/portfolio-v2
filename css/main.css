@@ -406,13 +406,12 @@ a {
     color: #871134; }
 
 p {
-  font-family: "Libre Baskerville";
+  font-family: "Open Sans";
   line-height: 20px;
   font-size: 0.9em; }
 
 ul, li {
   line-height: 25px;
-  font-size: 0.9em;
   margin: 0;
   padding: 0;
   font-family: "Open Sans";
@@ -482,10 +481,9 @@ ul, li {
   width: 175px;
   height: 175px;
   border-radius: 50% 50% 50% 10%;
-  background: #212121;
+  background: #696969;
   position: relative;
-  top: 2vh;
-  left: 26vh;
+  left: 45vw;
   z-index: 1;
   align-self: flex-start; }
 
@@ -496,11 +494,13 @@ ul, li {
   width: 90vw;
   height: 400px;
   padding: 25px;
-  background: #212121;
+  background: #505050;
   color: #f9f9f9;
   margin: auto;
   position: relative;
-  top: -12vh; }
+  top: -12vh;
+  border-radius: 50px;
+  max-width: 500px; }
 
 .skill-list-box {
   width: 100%;
@@ -550,8 +550,19 @@ ul, li {
 
 .ch-content, .se-content, .lb-content {
   color: #f9f9f9;
-  background: #212121;
-  padding: 15px; }
+  background: #505050;
+  border-radius: 0 0 50px 50px;
+  padding: 15px 25px 25px 25px;
+  margin-top: 1px;
+  width: 90%; }
+
+.proj-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 35px;
+  margin: 0;
+  padding: 0; }
 
 .self-image {
   width: 125px;

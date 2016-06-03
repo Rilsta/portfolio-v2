@@ -6,6 +6,18 @@
 
 .ch-content, .se-content, .lb-content{
   color: $white;
-  background: $black;
-  padding: 15px;
+  background: $dark-grey;
+  border-radius: 0 0 50px 50px;
+  padding: 15px 25px 25px 25px;
+  margin-top: 1px;
+  width: 90%;
+}
+
+.proj-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
 }
