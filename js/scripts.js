@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
   //intro animation
-  $("#design").addClass("m-box m-box--colorchange-one");
-  $("#develop").addClass("m-box m-box--colorchange-two");
-  $("#delight").addClass("m-box m-box--colorchange-three");
+  $("#design").addClass("m-box clickable m-box--colorchange-one");
+  $("#develop").addClass("m-box clickable m-box--colorchange-two");
+  $("#delight").addClass("m-box clickable m-box--colorchange-three");
   $("#logo").addClass("m-box m-box--colorchange-four");
   $("#empty-five").addClass("m-box m-box--colorchange-five empty flex-top");
   $("#empty-six").addClass("m-box m-box--colorchange-six empty");
@@ -48,6 +48,7 @@ $(document).ready(function() {
   $("#proj-links-ch, #proj-links-se, #proj-links-lb, #proj-links-rr").addClass("proj-links");
 
   $("#wf, #pt, #mu, #ch, #se, #lb, #rr").addClass("thumbnail");
+  $("#ph").addClass("placeholder")
   $("#wf").addClass("thumbnail-image-wf");
   $("#pt").addClass("thumbnail-image-pt");
   $("#mu").addClass("thumbnail-image-mu");

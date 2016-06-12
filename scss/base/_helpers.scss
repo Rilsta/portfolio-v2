@@ -14,7 +14,15 @@
   align-items: center;
 }
 
+.clickable{
+  cursor: pointer;
+}
+
 //Hides things
 .hidden{
   display: none;
+}
+
+.placeholder{
+  height: 36.7%;
 }
