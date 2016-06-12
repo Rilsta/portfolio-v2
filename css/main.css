@@ -571,7 +571,7 @@ ul, li {
   background-size: cover; }
 
 .thumbnail-image-rr {
-  background: url("../img/mondrian.jpg");
+  background-color: #9f9f9f;
   background-size: cover; }
 
 .overlay {
