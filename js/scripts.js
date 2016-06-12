@@ -40,44 +40,52 @@ $(document).ready(function() {
   $("#se-content").addClass("se-content hidden");
   $("#lb-content").addClass("lb-content hidden");
   $("#rr-content").addClass("rr-content hidden");
+  $("#wf-content").addClass("wf-content hidden");
+  $("#pt-content").addClass("pt-content hidden");
 
   //Preload
   $("#self-image").addClass("self-image");
   $("#proj-links-ch, #proj-links-se, #proj-links-lb, #proj-links-rr").addClass("proj-links");
 
-  //Design tab class additions
-  $("#wf, #pt, #mu, #ch, #se, #lb, #rr").addClass("content-box");
-  $("#wf, #pt").addClass("content-box-design");
-  $("#wf").addClass("box-image-wf");
-  $("#pt").addClass("box-image-pt");
-  $("#mu").addClass("box-image-mu");
-  $("#ch").addClass("box-image-ch");
-  $("#se").addClass("box-image-se");
-  $("#lb").addClass("box-image-lb");
-  $("#rr").addClass("box-image-lb");
+  $("#wf, #pt, #mu, #ch, #se, #lb, #rr").addClass("thumbnail");
+  $("#wf").addClass("thumbnail-image-wf");
+  $("#pt").addClass("thumbnail-image-pt");
+  $("#mu").addClass("thumbnail-image-mu");
+  $("#ch").addClass("thumbnail-image-ch");
+  $("#se").addClass("thumbnail-image-se");
+  $("#lb").addClass("thumbnail-image-lb");
+  $("#rr").addClass("thumbnail-image-rr");
   $("#wf--overlay, #pt--overlay, #mu--overlay, #ch--overlay, #se--overlay, #lb--overlay, #rr--overlay").addClass("overlay");
-  $("#skill-list-box").addClass("skill-list-box");
+  // $("#skill-list-box").addClass("skill-list-box");
 
   //Dropdown hide/show for main menu
   $("#design").click(function() {
-    $("#design-content, #develop, #delight, #logo, .empty").slideToggle("hidden");
+    $("#design-content, #develop, #delight, #logo, .empty, #ext-links").slideToggle("hidden");
   });
   $("#develop").click(function() {
-    $("#develop-content, #design, #delight, #logo, .empty").slideToggle("hidden");
+    $("#develop-content, #design, #delight, #logo, .empty, #ext-links").slideToggle("hidden");
   });
   $("#delight").click(function() {
-    $("#delight-content, #design, #develop, #logo, .empty").slideToggle("hidden");
+    $("#delight-content, #design, #develop, #logo, .empty, #ext-links").slideToggle("hidden");
   });
+
+  $("#wf").click(function() {
+    $("#design, #pt, #wf-content").slideToggle("hidden");
+  });
+  $("#pt").click(function() {
+    $("#design, #wf, #pt-content").slideToggle("hidden");
+  });
+
   $("#ch").click(function() {
-    $("#develop, #se, #lb, #rr, #ch-content, #ext-links").slideToggle("hidden");
+    $("#develop, #se, #lb, #rr, #ch-content").slideToggle("hidden");
   });
   $("#se").click(function() {
-    $("#develop, #ch, #lb, #rr, #se-content, #ext-links").slideToggle("hidden");
+    $("#develop, #ch, #lb, #rr, #se-content").slideToggle("hidden");
   });
   $("#lb").click(function() {
-    $("#develop ,#ch, #se, #rr, #lb-content, #ext-links").slideToggle("hidden");
+    $("#develop ,#ch, #se, #rr, #lb-content").slideToggle("hidden");
   });
   $("#rr").click(function() {
-    $("#develop ,#ch, #se, #lb, #rr-content, #ext-links").slideToggle("hidden");
+    $("#develop ,#ch, #se, #lb, #rr-content").slideToggle("hidden");
   });
 });

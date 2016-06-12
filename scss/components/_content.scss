@@ -3,7 +3,12 @@
   width: 100vw;
 }
 
-.ch-content, .se-content, .lb-content, .rr-content{
+.ch-content,
+.se-content,
+.lb-content,
+.rr-content,
+.wf-content,
+.pt-content{
   color: $white;
   background: $dark-grey;
   border-radius: 0 0 50px 50px;

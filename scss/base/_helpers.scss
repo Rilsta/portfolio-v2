@@ -1,20 +1,20 @@
+//Contains all splash page boxes
 .box-container{
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
+//aligns project content center
 .flex-container{
   display: flex;
   flex-flow: column;
   align-items: center;
 }
 
+//Hides things
 .hidden{
   display: none;
-}
-
-.show{
-  display: block;
 }

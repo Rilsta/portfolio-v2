@@ -1,0 +1,28 @@
+.m-box {
+  @extend .flex-center;
+  height: 14.285712vh;
+  width: 100vw;
+  color: $grey;
+  background: $black;
+}
+.m-box--colorchange-one {
+  animation: colorChange 2s ease-in-out 1;
+}
+.m-box--colorchange-two {
+  animation: colorChange 2.5s ease-in-out 1;
+}
+.m-box--colorchange-three {
+  animation: colorChange 3s ease-in-out 1;
+}
+.m-box--colorchange-four {
+  animation: colorChange 3.5s ease-in-out 1;
+}
+.m-box--colorchange-five {
+  animation: colorChange 4s ease-in-out 1;
+}
+.m-box--colorchange-six {
+  animation: colorChange 4.5s ease-in-out 1;
+}
+.m-box--colorchange-seven {
+  animation: colorChange 5s ease-in-out 1;
+}

@@ -425,7 +425,8 @@ ul, li {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  height: 100vh; }
 
 .flex-container {
   display: flex;
@@ -435,81 +436,15 @@ ul, li {
 .hidden {
   display: none; }
 
-.show {
-  display: block; }
-
-.m-box {
-  height: 14.285712vh;
-  width: 100vw;
-  color: #696969;
-  background: #212121; }
-
-.m-box--colorchange-one {
-  animation: colorChange 2s ease-in-out 1; }
-
-.m-box--colorchange-two {
-  animation: colorChange 2.5s ease-in-out 1; }
-
-.m-box--colorchange-three {
-  animation: colorChange 3s ease-in-out 1; }
-
-.m-box--colorchange-four {
-  animation: colorChange 3.5s ease-in-out 1; }
-
-.m-box--colorchange-five {
-  animation: colorChange 4s ease-in-out 1; }
-
-.m-box--colorchange-six {
-  animation: colorChange 4.5s ease-in-out 1; }
-
-.m-box--colorchange-seven {
-  animation: colorChange 5s ease-in-out 1; }
-
-.content-box {
+.thumbnail {
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: space-around;
   width: 100%;
   height: 25%;
-  background: #212121; }
-
-.content-box-design {
-  height: 45%; }
-
-.self-image-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 175px;
-  height: 175px;
-  border-radius: 50% 50% 50% 10%;
-  background: #696969;
-  position: relative;
-  left: 45vw;
-  z-index: 1;
-  align-self: flex-start; }
-
-.about-box {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  width: 90vw;
-  height: 400px;
-  padding: 25px;
-  background: #505050;
-  color: #f9f9f9;
-  margin: auto;
-  position: relative;
-  top: -12vh;
-  border-radius: 50px;
-  max-width: 500px; }
-
-.skill-list-box {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  background: #212121;
+  border: 1px solid red; }
 
 @keyframes fadeInRight {
   0% {
@@ -546,11 +481,43 @@ ul, li {
     background: #696969; }
   100% {
     background: #212121; } }
+.m-box {
+  height: 14.285712vh;
+  width: 100vw;
+  color: #696969;
+  background: #212121; }
+
+.m-box--colorchange-one {
+  animation: colorChange 2s ease-in-out 1; }
+
+.m-box--colorchange-two {
+  animation: colorChange 2.5s ease-in-out 1; }
+
+.m-box--colorchange-three {
+  animation: colorChange 3s ease-in-out 1; }
+
+.m-box--colorchange-four {
+  animation: colorChange 3.5s ease-in-out 1; }
+
+.m-box--colorchange-five {
+  animation: colorChange 4s ease-in-out 1; }
+
+.m-box--colorchange-six {
+  animation: colorChange 4.5s ease-in-out 1; }
+
+.m-box--colorchange-seven {
+  animation: colorChange 5s ease-in-out 1; }
+
 .dropdown {
   background: #212121;
   width: 100vw; }
 
-.ch-content, .se-content, .lb-content, .rr-content {
+.ch-content,
+.se-content,
+.lb-content,
+.rr-content,
+.wf-content,
+.pt-content {
   color: #f9f9f9;
   background: #505050;
   border-radius: 0 0 50px 50px;
@@ -570,30 +537,34 @@ ul, li {
   width: 125px;
   border-radius: 50% 50% 50% 10%; }
 
-.box-image-wf {
-  background: url("../img/wireframethumb.svg");
+.thumbnail-image-wf {
+  background: url("../img/mondrian.jpg");
   background-size: cover;
   background-position: center; }
 
-.box-image-pt {
-  background: url("../img/prototypethumbnail.svg");
+.thumbnail-image-pt {
+  background: url("../img/mondrian.jpg");
   background-size: cover;
   background-position: center; }
 
-.box-image-mu {
+.thumbnail-image-mu {
   background: url("../img/mondrian.jpg");
   background-size: cover; }
 
-.box-image-ch {
+.thumbnail-image-ch {
   background: url("../img/candorthumb.jpg");
   background-size: cover; }
 
-.box-image-se {
+.thumbnail-image-se {
   background: url("../img/shorts.jpg");
   background-size: cover; }
 
-.box-image-lb {
+.thumbnail-image-lb {
   background: url("../img/lasers.jpg");
+  background-size: cover; }
+
+.thumbnail-image-rr {
+  background: url("../img/mondrian.jpg");
   background-size: cover; }
 
 .overlay {
@@ -604,6 +575,34 @@ ul, li {
   width: 100%;
   background: rgba(33, 33, 33, 0.5);
   color: #f9f9f9; }
+
+.self-image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 175px;
+  border-radius: 50% 50% 50% 10%;
+  background: #696969;
+  position: relative;
+  left: 45vw;
+  z-index: 1;
+  align-self: flex-start; }
+
+.about-box {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 90vw;
+  height: 400px;
+  padding: 25px;
+  background: #505050;
+  color: #f9f9f9;
+  margin: auto;
+  position: relative;
+  top: -12vh;
+  border-radius: 50px;
+  max-width: 500px; }
 
 .m-scene {
   display: flex;

@@ -1,0 +1,29 @@
+.self-image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 175px;
+  border-radius: 50% 50% 50% 10%;
+  background: $grey;
+
+  position: relative;
+  left: 45vw;
+  z-index: 1;
+  align-self: flex-start;
+}
+.about-box {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 90vw;
+  height: 400px;
+  padding: 25px;
+  background: $dark-grey;
+  color: $white;
+  margin: auto;
+  position: relative;
+  top: -12vh;
+  border-radius: 50px;
+  max-width: 500px;
+}
